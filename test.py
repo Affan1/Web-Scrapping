@@ -14,12 +14,7 @@ import traceback
 
 browser = webdriver.Chrome('C:\\Users\\Affan\\Desktop\\Web Scrapping\\chromedriver.exe')
 
-conn = pyodbc.connect('Driver={SQL Server};'
-                      'Server=visdb.c66yg152cqdw.us-west-2.rds.amazonaws.com;'
-                      'Database=jcrvis_Test;'
-                      'UID=sa;'
-                      'PWD=jcrvis123;'
-                      'Trusted_Connection=No;')
+conn = pyodbc.connect('')
 
 c_p = "-company-profile"
 i_s = "-income-statement"
